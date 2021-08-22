@@ -3,8 +3,9 @@ libmrh
 .. image:: banner.png
    :align: center
    
-libmrh is an open source library which is intended to be used for application 
-development. It includes functions for all default events and file structures.
+The libmrh library is used to develop applications for the MRH platform.
+It contains method for managing events, handling platform data and files 
+and defines the default functions used by MRH applications.
 
 This documentation includes listings for the internal functions, enumerations, 
 etc. used by the library itself. These are not meant to be used directly for 
