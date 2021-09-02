@@ -41,7 +41,7 @@ set(LIB_SO_VERSION 1)
 ###
 #  Install Paths
 #  -------------
-#  The paths for our created binary file(s).
+#  GNU system paths for installation.
 ###
 include(GNUInstallDirs)
 
