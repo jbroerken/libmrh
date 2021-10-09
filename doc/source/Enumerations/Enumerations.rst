@@ -24,7 +24,6 @@ Library Enumerations
   libmrh_Directory/Event/V1/MRH_Say_V1/MRH_S_StringType
   libmrh_Directory/Event/V1/MRH_Say_V1/MRH_S_OutputMethod
   libmrh_Directory/Event/V1/MRH_User_V1/MRH_U_Content
-  libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_DefaultApp
   libmrh_Directory/Event/V1/MRH_Notification_V1/MRH_N_NotificationAvailable
 
 Internal Enumerations

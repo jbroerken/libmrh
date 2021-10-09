@@ -38,25 +38,6 @@ extern "C"
 #endif
 
     //*************************************************************************************
-    // Types
-    //*************************************************************************************
-
-    typedef enum
-    {
-        MRH_A_DEFAULT_APP_UNK = -1,
-        
-        MRH_A_DEFAULT_CALCULATOR = 0,
-        MRH_A_DEFAULT_CALENDAR = 1,
-        MRH_A_DEFAULT_NOTES = 2,
-        MRH_A_DEFAULT_WEB_SEARCH = 3,
-        
-        MRH_A_DEFAULT_APP_MAX = MRH_A_DEFAULT_WEB_SEARCH,
-
-        MRH_A_DEFAULT_APP_COUNT = MRH_A_DEFAULT_APP_MAX + 1
-
-    }MRH_A_DefaultApp;
-
-    //*************************************************************************************
     // Check Service
     //*************************************************************************************
     
@@ -181,53 +162,6 @@ extern "C"
      */
 
     extern int MRH_A_LaunchClearTimedResult(const MRH_Event* p_Event);
-
-    //*************************************************************************************
-    // Default Applications
-    //*************************************************************************************
-    
-    /**
-     *  Create an event requesting a default application.
-     *
-     *  \param e_App The defult application to request.
-     *
-     *  \return A MRH_Event on success, NULL on failure.
-     */
-    
-    extern MRH_Event* MRH_A_GetDefaultAppEvent(MRH_A_DefaultApp e_App);
-    
-    /**
-     *  Check an event if it contains a default application request result.
-     *
-     *  \param p_Event The event to check.
-     *  \param p_PackagePath The location to write the null terminated package path to.
-     *
-     *  \return 0 on success, MRH_A_DEFAULT_APP_UNK on failure.
-     */
-    
-    extern MRH_A_DefaultApp MRH_A_GetDefaultAppResult(const MRH_Event* p_Event, char** p_PackagePath);
-
-    /**
-     *  Create an event for updating a default application.
-     *
-     *  \param p_PackagePath A string containing the new package path.
-     *  \param u32_Length The length of the string containing the new package path in bytes.
-     *  \param e_App The default application to update.
-     *
-     *  \return A MRH_Event on success, NULL on failure.
-     */
-
-    extern MRH_Event* MRH_A_SetDefaultAppEvent(const char* p_PackagePath, MRH_Uint32 u32_Length, MRH_A_DefaultApp e_App);
-
-    /**
-     *  Check an event if it contains a default application update result.
-     *
-     *  \param p_Event The event to check.
-     *
-     *  \return 0 on success, MRH_A_DEFAULT_APP_UNK on failure.
-     */
-
-    extern MRH_A_DefaultApp MRH_A_SetDefaultAppResult(const MRH_Event* p_Event);
 
     //*************************************************************************************
     // Custom Command

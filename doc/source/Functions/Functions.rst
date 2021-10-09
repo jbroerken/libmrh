@@ -80,10 +80,6 @@ Library Functions
   libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_LaunchClearTimedEvent
   libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_LaunchClearResult
   libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_LaunchClearTimedResult
-  libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_GetDefaultAppEvent
-  libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_GetDefaultAppResult
-  libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_SetDefaultAppEvent
-  libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_SetDefaultAppResult
   libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_CustomCommandEvent
   libmrh_Directory/Event/V1/MRH_Application_V1/MRH_A_CustomCommandResult
   libmrh_Directory/Event/V1/MRH_Notification_V1/MRH_N_AvailableEvent
