@@ -19,12 +19,6 @@ Library Enumerations
   libmrh_Directory/MRH_AppLog/MRH_Log_Level
   libmrh_Directory/File/User/MRH_PersonFile/MRH_File_Person_Info
   libmrh_Directory/File/User/MRH_ResidenceFile/MRH_File_Residence_Info
-  libmrh_Directory/Event/V1/MRH_Listen_V1/MRH_L_StringType
-  libmrh_Directory/Event/V1/MRH_Listen_V1/MRH_L_InputMethod
-  libmrh_Directory/Event/V1/MRH_Say_V1/MRH_S_StringType
-  libmrh_Directory/Event/V1/MRH_Say_V1/MRH_S_OutputMethod
-  libmrh_Directory/Event/V1/MRH_User_V1/MRH_U_Content
-  libmrh_Directory/Event/V1/MRH_Notification_V1/MRH_N_NotificationAvailable
 
 Internal Enumerations
 ---------------------
