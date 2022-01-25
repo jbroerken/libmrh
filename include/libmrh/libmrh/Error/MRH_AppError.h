@@ -57,24 +57,8 @@ extern "C"
         MRH_APP_ERROR_GENERAL_STRING_LENGTH = 5,
         MRH_APP_ERROR_GENERAL_NO_FILE = 6,
         
-        // Event
-        MRH_APP_ERROR_EVENT_CHECK_DATA = 7,
-        
-        // Listen
-        MRH_APP_ERROR_LISTEN_INPUT_METHOD,
-        
-        // Say
-        MRH_APP_ERROR_SAY_OUTPUT_METHOD,
-        
-        // User
-        
-        // Application
-        MRH_APP_ERROR_APPLICATION_DEFAULT_APP,
-        
-        // Notification
-        
         // User File
-        MRH_APP_ERROR_FPI_NO_INFO,
+        MRH_APP_ERROR_FPI_NO_INFO = 7,
         MRH_APP_ERROR_FRI_NO_INFO,
         
         // Bounds

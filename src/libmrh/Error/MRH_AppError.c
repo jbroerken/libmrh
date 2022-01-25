@@ -80,22 +80,6 @@ const char* MRH_ERR_GetAppErrorString(void)
         case MRH_APP_ERROR_GENERAL_NO_FILE:
             return "No file";
         
-        // Listen
-        case MRH_APP_ERROR_LISTEN_INPUT_METHOD:
-            return "Invalid input method";
-            
-        // Listen
-        case MRH_APP_ERROR_SAY_OUTPUT_METHOD:
-            return "Invalid output method";
-            
-        // User
-            
-        // Application
-        case MRH_APP_ERROR_APPLICATION_DEFAULT_APP:
-            return "Invalid default application";
-            
-        // Notification
-            
         // User File
         case MRH_APP_ERROR_FPI_NO_INFO:
             return "The requested person info has no string value";
