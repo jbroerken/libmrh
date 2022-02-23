@@ -6,10 +6,6 @@ function results and function parameters.
 Internal enumerations are used by the library itself. These enumerations are 
 not meant to be used directly for service development.
 
-Please note that the event buffer enumerations are not listed here. These 
-enumerations mirror the structure of the event buffers and can be found 
-in the event source files.
-
 Library Enumerations
 --------------------
 .. toctree::
