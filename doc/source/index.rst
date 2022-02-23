@@ -12,8 +12,8 @@ etc. used by the library itself. These are not meant to be used directly for
 service development but as information for library development.
 
 As such, this documentation is both aimed at developers wanting to write their 
-own user application service as well as library developers wishing to improve 
-on the libmrh source.
+own user applications as well as library developers wishing to improve  on the 
+libmrh source.
 
 .. toctree::
    :maxdepth: 2
