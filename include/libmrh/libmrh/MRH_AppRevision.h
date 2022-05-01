@@ -74,7 +74,7 @@ extern "C"
 
 #define MRH_APP_LIB_VERSION_MAJOR 1
 #define MRH_APP_LIB_VERSION_MINOR 0
-#define MRH_APP_LIB_VERSION_PATCH 0
+#define MRH_APP_LIB_VERSION_PATCH 1
 
 
 #endif /* MRH_AppRevision_h */
