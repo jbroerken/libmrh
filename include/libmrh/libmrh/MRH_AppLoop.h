@@ -58,15 +58,15 @@ extern "C"
     //*************************************************************************************
 
     /**
-     *  Called by the app parent when an event is recieved from the platform services.
+     *  Called by the app parent when an event is received from the platform services.
      *
-     *  \param p_Event The recieved event.
+     *  \param p_Event The received event.
      */
 
-    extern void MRH_RecieveEvent(const MRH_Event* p_Event);
+    extern void MRH_ReceiveEvent(const MRH_Event* p_Event);
 
     /**
-     *  Called by the app parent to recieve an event from the application.
+     *  Called by the app parent to retrieve an event from the application.
      *
      *  \return The event to send.
      */
