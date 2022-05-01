@@ -41,14 +41,14 @@ will be called after the last recieve event call for as long as the function
 does not return NULL. Returning NULL signals that all events available to be 
 sent are given to the application parent.
 
-MRH_RecieveEvent
+MRH_ReceiveEvent
 ----------------
-The :doc:`../Functions/libmrh_Directory/MRH_AppLoop/MRH_RecieveEvent` 
-function is called for every event to be recieved by the application. 
+The :doc:`../Functions/libmrh_Directory/MRH_AppLoop/MRH_ReceiveEvent` 
+function is called for every event to be received by the application. 
 It is called directly after the last event was sent by the application.
 
 MRH_Exit
 --------
 :doc:`../Functions/libmrh_Directory/MRH_AppLoop/MRH_Exit` will be called once 
-if a normal shutdown is requested (either by SIGTERM or if CanExit returns 0).
+if a normal shutdown is requested (either by SIGTERM or if MRH_CanExit returns 0).
 This function allows for cleanup and finishing tasks.

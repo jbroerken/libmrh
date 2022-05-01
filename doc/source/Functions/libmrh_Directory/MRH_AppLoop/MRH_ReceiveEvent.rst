@@ -1,6 +1,6 @@
-MRH_RecieveEvent
+MRH_ReceiveEvent
 ================
-The MRH_RecieveEvent function is used to recieve and handle platform 
+The MRH_ReceiveEvent function is used to receive and handle platform 
 service events. This function is only declared, it has to be implemented 
 by the application source.
 
@@ -17,7 +17,7 @@ Syntax
 ------
 .. code-block:: c
 
-    void MRH_RecieveEvent(const MRH_Event* p_Event);
+    void MRH_ReceiveEvent(const MRH_Event* p_Event);
 
 
 Parameters
@@ -28,7 +28,7 @@ Parameters
     * - Parameter
       - Description
     * - p_Event
-      - The recieved platform service event.
+      - The received platform service event.
 
 
 Return Value
@@ -38,7 +38,7 @@ None.
 Remarks
 -------
 * This function is called continously until all platform 
-  service events have been recieved.
+  service events have been received.
 
 Code Examples
 -------------

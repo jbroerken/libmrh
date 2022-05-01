@@ -17,7 +17,7 @@ Library Functions
   :maxdepth: 1
 
   libmrh_Directory/MRH_AppLoop/MRH_Init
-  libmrh_Directory/MRH_AppLoop/MRH_RecieveEvent
+  libmrh_Directory/MRH_AppLoop/MRH_ReceiveEvent
   libmrh_Directory/MRH_AppLoop/MRH_SendEvent
   libmrh_Directory/MRH_AppLoop/MRH_CanExit
   libmrh_Directory/MRH_AppLoop/MRH_Exit
