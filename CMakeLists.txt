@@ -27,7 +27,7 @@ set(CMAKE_C_STANDARD 99)
 #  ------------
 #  General simple information about our project.
 ###
-project(libmrh VERSION 1.0.0
+project(libmrh VERSION 1.0.1
                DESCRIPTION "Default application development library for the MRH Platform"
                LANGUAGES C)
 set(LIB_SO_VERSION 1)
