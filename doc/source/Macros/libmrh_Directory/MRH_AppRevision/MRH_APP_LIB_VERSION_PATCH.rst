@@ -17,4 +17,4 @@ The defined patch version in the header is as follows:
 
 .. code-block:: c
 
-    #define MRH_APP_LIB_VERSION_PATCH 0
+    #define MRH_APP_LIB_VERSION_PATCH 1
